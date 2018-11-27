@@ -7,4 +7,5 @@ class BankAccount
     @account = []
     account.balance = "1000"
     account.status = "open"
+  end  
 end
