@@ -12,7 +12,7 @@ class BankAccount
     self.balance += deposit_ammount
   end
 
-  def display_balance(balance)
+  def display_balance
     "Your balance is $#{balance}."
   end
 
