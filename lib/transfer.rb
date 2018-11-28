@@ -23,4 +23,9 @@ class Transfer
         transfer_rejected
       end
     end
+
+    def transfer_rejected
+      self.status = "rejected"
+    "Transaction rejected. Please check your bank balance."
+  end  
 end
