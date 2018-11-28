@@ -7,4 +7,12 @@ class BankAccount
     @balance = 1000
     @status = "open"
   end
+
+  def deposit(deposit_ammount)
+    self.balance += deposit_ammount
+  end
+
+  def display_balance(balance)
+    "Your balance is #{balance}."
+    
 end
