@@ -9,5 +9,5 @@ class Transfer
       @receiver = receiver
       @ammount = ammount
     end
-      
+
 end
