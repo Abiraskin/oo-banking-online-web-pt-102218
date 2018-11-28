@@ -1,4 +1,4 @@
-class BankAccount
+class Bank_Account
   attr_reader :name
   attr_accessor :balance, :status
 
