@@ -8,4 +8,3 @@ class Bank_Account
     @status = "open"
   end
 end
-  
