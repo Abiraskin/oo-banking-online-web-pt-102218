@@ -22,5 +22,5 @@ class Transfer
       else
         transfer_rejected
       end
-    end      
+    end
 end
