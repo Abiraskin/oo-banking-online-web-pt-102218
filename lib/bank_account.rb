@@ -20,4 +20,8 @@ class BankAccount
     balance > 0 && status == "open"
   end
 
+  def colse_account
+    self.status = "closed"
+  end  
+    
 end
